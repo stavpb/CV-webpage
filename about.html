@@ -10,123 +10,117 @@
     <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    
-    <div>
+    <!-- Background image -->
+    <div class="bg overflow-auto" style="background-image:url(./images/18129294.jpg); background-size: cover; 
+    background-position: center; 
+    height: 100vh; width: auto;">
+
+        <!-- Nav bar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-purple sticky-top">
+
+            <div class="px-5">
+                <a href="index.html" class="navbar-brand fs-3 letter-spacing-03 text-white">STAVROULA</a>
+            </div>
+
+            <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse " id="navbarCollapse">
+                <div class="navbar-nav m-auto">
+                    <a href="index.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
+                        <i class="bi bi-house"></i>
+                        <span class="m-1">Home</span>
+                    </a>
+                    <a href="about.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
+                        <i class="bi bi-person"></i>
+                        <span class="m-1">About</span>
+                    </a>
+                    <a href="work.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
+                        <i class="bi bi-briefcase"></i>
+                        <span class="m-1">Work Experience</span>
+                    </a>
+                    <a href="skills.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
+                        <i class="bi bi-person-gear"></i>
+                        <span class="m-1">Skills</span>
+                    </a>
+                    <a href="education.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
+                        <i class="bi bi-mortarboard"></i>
+                        <span class="m-1">Education</span>
+                    </a>
+                    <a href="contact.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
+                        <i class="bi bi-envelope"></i>
+                        <span class="m-1">Contact</span>
+                    </a>
+                </div>
+            </div>
+        </nav>
         
+        <div class="mt-heading mx-5 mb-5">
+            <div>
+                <h1 class="text-white bg-heading w-s-50 w-md-25 rounded-5 p-2 mx-auto text-center">About</h1>
+                <p class="w-s-100 w-md-75 m-auto text-center">
+                    Enthusiastic and driven software engineer with a strong foundation in programming, problem-solving, and software development. Eager to contribute to innovative projects and grow professionally within a dynamic and challenging environment.
+                </p>
+            </div>
+            <div class="d-md-flex p-4">
 
-        <!-- Background image -->
-        <div class="bg overflow-auto" style="background-image:url(./images/18129294.jpg); background-size: cover; 
-        background-position: center; 
-        height: 100vh; width: auto;">
-
-            <!-- Nav bar -->
-            <nav class="navbar navbar-expand-lg navbar-light bg-purple sticky-top">
-
-                <div class="px-5">
-                    <a href="index.html" class="navbar-brand fs-3 letter-spacing-03 text-white">STAVROULA</a>
+                <div class="col-md-4 text-end mx-3 mt-4">
+                    <img class="rounded img-fluid" src="./images/stav.jpg" alt="" >
                 </div>
-
-                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-
-                <div class="collapse navbar-collapse " id="navbarCollapse">
-                    <div class="navbar-nav m-auto">
-                        <a href="index.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
-                            <i class="bi bi-house"></i>
-                            <span class="m-1">Home</span>
-                        </a>
-                        <a href="about.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
-                            <i class="bi bi-person"></i>
-                            <span class="m-1">About</span>
-                        </a>
-                        <a href="work.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
-                            <i class="bi bi-briefcase"></i>
-                            <span class="m-1">Work Experience</span>
-                        </a>
-                        <a href="skills.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
-                            <i class="bi bi-person-gear"></i>
-                            <span class="m-1">Skills</span>
-                        </a>
-                        <a href="education.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
-                            <i class="bi bi-mortarboard"></i>
-                            <span class="m-1">Education</span>
-                        </a>
-                        <a href="contact.html" class="px-3 py-3 nav-item nav-link hover-purple rounded">
-                            <i class="bi bi-envelope"></i>
-                            <span class="m-1">Contact</span>
-                        </a>
-                    </div>
-                </div>
-            </nav>
-            
-            <div class="mt-heading mx-5 mb-5">
-                <div>
-                    <h1 class="text-white bg-heading w-s-50 w-md-25 rounded-5 p-2 mx-auto text-center">About</h1>
-                    <p class="w-s-100 w-md-75 m-auto text-center">
-                        Enthusiastic and driven software engineer with a strong foundation in programming, problem-solving, and software development. Eager to contribute to innovative projects and grow professionally within a dynamic and challenging environment.
-                    </p>
-                </div>
-                <div class="d-md-flex p-4">
-
-                    <div class="col-md-4 text-end mx-3 mt-4">
-                        <img class="rounded img-fluid" src="./images/stav.jpg" alt="" >
-                    </div>
-                    <div class="py-2 px-3 bg-lightgrey rounded shadow mt-4">
-                        <h3 class="my-3">Software Engineer</h3>
-                        <div class="d-md-flex mt-paragraph">
-                        
-                            <div class="col-md-6">
-                                <p>
-                                    <i class="fa-brands fa-github"></i>
-                                    <span class="ml-050">
-                                        Github: <a class="text-decoration-none text-dark hover-purple p-1 rounded" href="https://github.com/stavpb">Chalvantzi Git</a>
-                                    </span>
-                                </p>
-                                <p>
-                                    <i class="fa-brands fa-linkedin"></i>
-                                    <span class="ml-050">
-                                        LinkedIn: <a class="text-decoration-none text-dark hover-purple p-1 rounded" href="https://www.linkedin.com/in/chalvantzi-stavroula-1a9399209/">Chalvantzi profile</a>
-                                    </span>
-                                </p>
-                                <p>
-                                    <i class="bi bi-envelope-at"></i>
-                                    <span class="ml-050">
-                                        Email: stavroula.chalvantzi@gmail.com
-                                    </span>
-                                </p>
-                                <p>
-                                    <i class="fa-solid fa-city"></i>
-                                    <span class="ml-050">City: Athens</span>
-                                </p>
-                            </div>
-                            <div class="col-md-6 ">
-                                <p>
-                                    <i class="fa-solid fa-certificate"></i>
-                                    <span class="ml-050">Degree: Master</span></p>
-                                <p>
-                                    <i class="bi bi-building-fill-gear"></i>
-                                    <span class="ml-050">Field: Mechanical Engineering</span></p>
-                                <p>
-                                    <i class="fa-solid fa-building-columns"></i>
-                                    <span class="ml-050">University: AUTH</span></p>
-                                <p>
-                                    <i class="bi bi-pc-display"></i>
-                                    <span class="ml-050">Freelance: Available</span></p>
-                            </div>
-                        
+                <div class="py-2 px-3 bg-lightgrey rounded shadow mt-4">
+                    <h3 class="my-3">Software Engineer</h3>
+                    <div class="d-md-flex mt-paragraph">
+                    
+                        <div class="col-md-6">
+                            <p>
+                                <i class="fa-brands fa-github"></i>
+                                <span class="ml-050">
+                                    Github: <a class="text-decoration-none text-dark hover-purple p-1 rounded" href="https://github.com/stavpb">Chalvantzi Git</a>
+                                </span>
+                            </p>
+                            <p>
+                                <i class="fa-brands fa-linkedin"></i>
+                                <span class="ml-050">
+                                    LinkedIn: <a class="text-decoration-none text-dark hover-purple p-1 rounded" href="https://www.linkedin.com/in/chalvantzi-stavroula-1a9399209/">Chalvantzi profile</a>
+                                </span>
+                            </p>
+                            <p>
+                                <i class="bi bi-envelope-at"></i>
+                                <span class="ml-050">
+                                    Email: stavroula.chalvantzi@gmail.com
+                                </span>
+                            </p>
+                            <p>
+                                <i class="fa-solid fa-city"></i>
+                                <span class="ml-050">City: Athens</span>
+                            </p>
                         </div>
-                        <div class="mt-paragraph">
-                            <p>Stavroula Chalvantzi grew up in a village of Central Greece. At the age of 18 she moved to Thessaloniki, where she studied Mechanical Engineering. Later on in her life, she followed her dreams of becoming Software Engineer, by moving to Athens and attending Coding Factory bootcamp of AUEB University.</p>
+                        <div class="col-md-6 ">
+                            <p>
+                                <i class="fa-solid fa-certificate"></i>
+                                <span class="ml-050">Degree: Master</span></p>
+                            <p>
+                                <i class="bi bi-building-fill-gear"></i>
+                                <span class="ml-050">Field: Mechanical Engineering</span></p>
+                            <p>
+                                <i class="fa-solid fa-building-columns"></i>
+                                <span class="ml-050">University: AUTH</span></p>
+                            <p>
+                                <i class="bi bi-pc-display"></i>
+                                <span class="ml-050">Freelance: Available</span></p>
                         </div>
+                    
+                    </div>
+                    <div class="mt-paragraph">
+                        <p>Stavroula Chalvantzi grew up in a village of Central Greece. At the age of 18 she moved to Thessaloniki, where she studied Mechanical Engineering. Later on in her life, she followed her dreams of becoming Software Engineer, by moving to Athens and attending Coding Factory bootcamp of AUEB University.</p>
                     </div>
                 </div>
             </div>
-            <footer class="bg-purple py-3 text-center fs-footer">
-                Copyright &copy; 2025 Stavroula Chalvantzi<br>All Rights Reserved
-            </footer>
         </div>
-
+        <footer class="bg-purple py-3 text-center fs-footer">
+            Copyright &copy; 2025 Stavroula Chalvantzi<br>All Rights Reserved
+        </footer>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
