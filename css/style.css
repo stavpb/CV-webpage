@@ -18,6 +18,10 @@ body {
     letter-spacing: .3rem;
 }
 
+.fs-footer {
+    font-size: small;
+}
+
 /* Backgroung colors */
 
 .bg-purple {
